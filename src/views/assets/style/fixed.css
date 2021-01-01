@@ -1,6 +1,6 @@
 
 
-@media (min-width: 766px) {
+@media (min-width: 817px) {
     .Fixed {
 
         background-color:rgb(255, 255, 255);
@@ -157,8 +157,7 @@ label[for='check']{
 
 
 
-
-@media (max-width: 765px) {
+@media (max-width: 816px) {
 
     label[for='check'] {
         visibility: visible;
