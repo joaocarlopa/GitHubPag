@@ -1,0 +1,155 @@
+@media (max-width: 816px) {
+    .top {
+        background-color: #24292e;
+        color: white;
+        height: 40px;
+        width: 100ch;
+        font-weight: 400;
+        display: flex;
+        justify-self: right;
+        box-sizing: border-box;
+    }
+
+   
+}
+
+
+@media (min-width: 765px) {
+    body {
+        background-color: rgb(255, 255, 255, 0.7);
+        font-family: sans-serif;
+        
+
+    }
+    .Menu {
+        width: 100%;
+        
+    }
+
+    .top {
+        background-color: #24292e;
+        color: white;
+        height: 72px;
+        font-weight: 400;
+        
+        
+    }
+
+    .topContent {
+        padding: 20px;
+        margin-left: 25px;
+        display: flex;
+    }
+
+    .topMain {
+        margin: -8px 0px 0px -12px;
+        font-size: 16px;
+    }
+
+    .topMain ul {
+        display: flex;
+        
+    }
+
+    .topMain li {
+        list-style: none;
+        
+    }
+
+    .topMain li a {
+        text-decoration: none;
+        color: white;
+        margin-left: 15px;
+    }
+
+    .topMain li:hover {
+        filter: brightness(65%);
+        transition: 0.25s;
+    }
+
+    .search {
+        margin: 10px 0px 0px 45vh;
+        display: flex;
+    }
+
+    #inputSearch {
+        position: relative;
+        top: -10px;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        border: none;
+    }
+
+    .login {
+        margin: 6px 0px 0px 30px;
+    }
+
+    .login a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+       
+    }
+
+    .signUp {
+        border: 1px solid rgb(255, 255, 255, 0.7);
+        border-radius: 5px;
+        padding: 7px;
+    }
+
+    .all {
+        display: flex;
+    }
+
+    footer {
+  
+        width: 95%;
+        margin: 30px 0px 0px 40px;
+        
+    }
+
+    .containerFooter {
+        
+        margin: 40px 0px 40px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .alignFooter {
+        font-size: 12px;
+        margin-right: 40px;
+    }
+
+    .alignFooter a {
+        text-decoration: none;
+        color: rgb(83, 132, 223);
+    }
+
+    .alignFooter a:hover {
+        text-decoration: underline;
+    }
+
+    .iconGitFooter {
+        margin: 0px 115px 0px 115px;
+        color: lightgray;
+    }
+
+    .iconGitFooter:hover {
+        filter: brightness(50%);
+      
+    }
+
+    .cred {
+        font-size: 10px;
+    }
+
+    .hr {
+        width: 1225px;
+        margin-left: 0px;
+        border-top: 1px solid rgb(231, 231, 231);
+        border-bottom:none;
+        border-left: none;
+        border-right: none;
+    }
+}

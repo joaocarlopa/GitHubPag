@@ -1,0 +1,352 @@
+@media (max-width: 816px) {
+    .ContainerAll {
+        height: auto;
+    }
+}
+
+@media (max-width: 1300px ) {
+
+    .Menu {
+        box-sizing: border-box;
+    }
+
+    .ContainerAll {
+        box-sizing: border-box;
+    }
+
+    .topMain {
+        box-sizing: border-box;
+    }
+
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -42px;
+        left: auto;
+        box-sizing: border-box;
+    }
+    
+}
+
+
+@media (min-width: 765px) {
+    .ContainerAll {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .cardMain {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .cardPin {
+        margin: 10px 0px 10px 0px;
+        width: 410px;
+        height: 82px;
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 7px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        
+  
+    }
+
+    .cardLink {
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
+        
+        
+    }
+
+    .cardLink:hover {
+        color: #2B6AD0;
+    }
+
+    .cardCont {
+        display: flex;
+        
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
+    .cardContRight {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nomeCard {
+        color: #2B6AD0;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .nomeCard:hover {
+        text-decoration: underline;
+    }
+
+
+    .typeL {
+        margin: 2px 0px 0px 3px;
+    }
+    
+    .footer {
+        margin-top: 50px;
+    }
+
+    .footerContent {
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 5px;
+        margin-top: 10px;
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+
+    }
+
+    .greenPixel {
+        height: 10px;
+        width: 10px;
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 2px;
+        background-color:rgb(231, 231, 231);
+        
+        
+    }
+
+
+
+    .headerFT {
+        display: flex;
+        margin: 2px 0px 2px 0px
+    }
+
+    .month {
+        margin:0px 40px 0px 7px;
+        font-size: 10px;
+    }
+
+    .navFT {
+        display: flex;
+    }
+
+    .navItem {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .navContent {
+        margin: 20px 5px 0px 0px;
+        font-size: 10px;
+    }
+
+    .linkFT {
+       
+        text-decoration: none;
+        color: rgb(69, 69, 253);
+        font-size: 11px;
+    }
+
+    .green {
+        background-color: rgb(106, 204, 106);
+        border:  1px solid rgb(106, 204, 106);
+    }
+
+    .greenMedium {
+        background-color: rgb(34, 185, 34);
+        border: 1px solid rgb(34, 185, 34);
+    }
+
+    .greenDark {
+        background-color: darkgreen;
+        border: 1px solid darkgreen;
+    }
+
+    .footerEnd {
+        margin-top: 25px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    fieldset {
+        border: 1px solid rgba(211, 211, 211);
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+        width: 700px;
+    }
+
+    legend {
+        margin-left: -22px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .iconFT {
+        margin-top: 10px;
+     
+    }
+
+    .iconFT::before {
+        display: block;
+        width: 2px;
+        height: 150px;
+        position: relative;
+        left: -13px;
+        content: "";
+        background-color:rgb(224, 224, 224);
+        
+    }
+
+   
+
+    .iconBox {
+        width: 30px;
+        height: 30px;
+        background-color:rgba(211, 211, 211);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -27px;
+        top: -125px;
+    }
+
+    .iconBoxTwo {
+        width: 30px;
+        height: 30px;
+        background-color:rgba(211, 211, 211);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -27px;
+        top: -90px;
+    }
+
+    .iconLink {
+        position: relative;
+        top: -180px;
+        left: 15px;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    .iconLinkTwo {
+        position: relative;
+        top: -133px;
+        left: 15px;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    .iconLink:hover {
+        color: rgb(81, 133, 245);
+    }
+
+    .iconLinkTwo:hover {
+        color: rgb(81, 133, 245);
+    }
+
+    .iconSelect {
+        margin:-5px 0px 0px 405px;
+    }
+
+    .iconSelectTwo {
+        margin: -5px 0px 0px 520px;
+    }
+
+    .btnFooter {
+        margin: -70px 0px 0px -25px;
+        display: block;
+        width: 105%;
+        height: 40px;
+        background-color: rgb(255, 255, 255, 0.7);
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 5px;
+        color: rgb(50, 92, 182);
+        font-weight: 600;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .btnFooter:hover {
+        filter: brightness(95%);
+        transition: 0.25s;
+    }
+
+    .btnFooter:active {
+        position: relative;
+        top: 1px;
+    }
+
+    .footerFinaly {
+        margin: 30px 0px 0px -27px;
+        font-size: 13px;
+    }
+
+    .linkGit {
+        text-decoration: none;
+        color: rgb(83, 132, 223);
+    }
+
+    
+}
+
+
+.yellow {
+    background-color: #f1e05a;
+    width: 13px;
+    height: 13px;
+    border-radius: 35px;
+    border: 1px solid #b4ad699f;
+    margin-top: 2px;
+}
+
+.red {
+    background-color: #e34c26;
+    width: 13px;
+    height: 13px;
+    border-radius: 35px;
+    border: 1px solid #b4ad699f;
+    margin-top: 2px;
+}
+
+.purple {
+    background-color: #563d7c;
+    width: 13px;
+    height: 13px;
+    border-radius: 35px;
+    border: 1px solid #b4ad699f;
+    margin-top: 2px;
+}
+
+.blue {
+    background-color: #3d5a7c;
+    width: 13px;
+    height: 13px;
+    border-radius: 35px;
+    border: 1px solid #b4ad699f;
+    margin-top: 2px;
+}
+
+.cores {
+    display: flex;
+    font-size: 13px;
+    font-weight: 300;
+}

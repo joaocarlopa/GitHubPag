@@ -1,0 +1,760 @@
+
+
+@media (min-width: 766px) {
+    .Fixed {
+
+        background-color:rgb(255, 255, 255);
+        border-bottom: 1px solid rgba(211, 211, 211, 0.466);
+        height: 70px;
+        width: 100%;
+        
+        
+    }
+
+    .nav {
+        margin: 4px 0px 0px 147px;
+        font-weight: 300;
+        display: flex;
+        padding: 10px;
+        
+    }
+
+    .navbar {
+       
+        margin-right: 30px;
+        padding: 10px;
+        
+        
+    }
+
+    .linkNav {
+        text-decoration: none;
+        color: black;
+    }
+
+    .navbar:hover {
+        border-bottom: 2px solid rgba(211, 211, 211, 0.466);
+    }
+
+    .navbar:focus-within {
+        border-bottom: 2px solid #f9826c;
+    }
+
+    .numRepo {
+        padding: 5px;
+        margin: -2px 0px 0px 5px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 12px;
+        border: 1px solid rgba(211, 211, 211, 0.466);
+        border-radius: 15px;
+        background-color: rgba(211, 211, 211, 0.466);
+        height: 10px;
+    }
+
+    .icon {
+       margin-right: 10px;
+    }
+
+    .search {
+       height: 35px;
+       position: relative;
+    }
+
+
+    .Fixed nav {
+        display: flex;
+        margin-left: 25px;
+    }
+
+    .Fixed ul {
+        display: flex;
+    }
+
+    .Fixed li {
+        list-style: none;
+        display: flex;
+    }
+
+    .Fixed li img {
+        width: 32px;
+        height: 32px;
+        object-fit: cover;
+        margin-top: -8px;
+        border-radius: 25px;
+    }
+    
+    .Fix {
+        transition: 0.1s;
+        position: fixed;
+        height: 47px;
+        top: 0%;
+    }
+
+    .FixNav {
+        margin-top: -20px;
+    }
+
+    .Follow {
+        position: relative;
+        left: -90px;
+        top: 19px;
+        font-size: 12px;
+        height: 20px;
+        width: 50px;
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px rgb(255, 255, 255, 0.7);
+        background-color: rgb(255, 255, 255, 0.7);
+    
+
+    }
+
+    .Follow:hover {
+        filter: brightness(95%);
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+    .profil {
+        transition: 0.25s;
+    }
+
+    .profile {
+        
+        opacity: 0;
+    }
+
+    .barTop {
+        margin-left: 20px;
+    }
+
+    
+}
+
+label[for='check']{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -25px;
+    visibility: hidden;
+}
+
+#check {
+    visibility: hidden;
+}
+
+.iconX {
+    visibility: hidden;
+}
+
+
+
+
+
+
+@media (max-width: 765px) {
+
+    label[for='check'] {
+        visibility: visible;
+        position: relative;
+        top: -579px;
+        left: 355px;
+        font-size: 30px;
+    }
+
+    .profile {
+        visibility: hidden;
+    }
+
+    .nav {
+        border-bottom: 1px solid rgba(211, 211, 211, 0.466);
+        height: 70px;
+        display: flex;
+        list-style: none;
+        position: relative;
+        left: -35px;
+        top: -200px;
+    }
+
+    .nav a:hover {
+        border-bottom: 1px solid rgba(211, 211, 211, 0.466);
+
+    }
+
+    .nav a:focus {
+        border-bottom: 1px solid red;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
+        
+    }
+
+ 
+
+    .numRepo {
+        padding: 5px;
+        margin: -2px 0px 0px 5px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 12px;
+        border-radius: 15px;
+        border: 1px solid rgba(211, 211, 211, 0.466);
+        background-color: rgba(211, 211, 211, 0.466);
+        height: 10px;
+    }
+
+    .nav li {
+        margin-right: 10px;
+    }
+
+    .nav svg {
+        visibility: hidden;
+    }
+
+    .topMain {
+        visibility: hidden;
+        display: block;
+        z-index: 100;
+        background-color: rgb(255, 255, 255);
+        float: right;
+        position: fixed;
+        height: 900px;
+        top: 0%;
+        left: 29%;
+        color: rgb(255, 255, 255);
+    }
+
+    
+
+
+
+    .iconX {
+       
+        position: fixed;
+        top: 0.5%;
+        left: 370px;
+        color: black;
+    }
+
+    .topAnim {
+        visibility: visible;
+    }
+
+    .topMain li {
+        margin: 50px 0px 0px -25px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid rgba(211, 211, 211, 0.466);
+        height: 10px;
+        width: 270px;
+        color: black;
+        list-style: none;
+    }
+
+    .topMain a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .Fix {
+        visibility: hidden;
+    }
+
+    .signUp {
+        position: relative;
+        top: -26px;
+        left: 31ch;
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        border: 1px solid;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 300;
+        box-sizing: border-box;
+    }
+
+    .signIn {
+        text-decoration: none;
+        visibility: hidden;
+        
+    }
+
+    .signAlinha {
+        z-index: 100;
+        position: fixed;
+        top: 540px;
+        left: 275px;
+        color: black;
+        border: 1px solid rgba(160, 160, 160, 0.7);
+    }
+
+    .signAlinhaIn {
+        visibility: visible;
+        color: black;
+        z-index: 100;
+        position: fixed;
+        top: 545px;
+        left: 200px;
+    }
+
+    .search {
+        z-index: 100;
+        border-top: 1px solid rgba(211, 211, 211, 0.466);
+        position: fixed;
+        left: 30%;
+        top: 62%;
+        margin: 10px 0px 0px 7px;
+        visibility: hidden;
+
+    }
+
+    #inputSearch {
+        border: 1px solid rgba(211, 211, 211, 0.466);
+        background-color: rgb(37, 37, 37);
+        margin: 10px 0px 0px 0px;
+        text-indent: 5%;
+        width: 270px;
+        height: 30px;
+        border-radius: 5px;
+        z-index: 100;
+        
+        
+    }
+
+ 
+
+
+    .btnFollow {
+        height: 30px;
+        width: 300px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: 1px solid rgba(211, 211, 211);
+        background-color: rgb(255, 255, 255, 0.7);
+        
+        position: relative;
+        top: -75ch;
+        left: 17px;
+    }
+
+    .btnPoint {
+        width: 90px;
+        height: 30px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: 1px solid rgba(211, 211, 211);
+        background-color: rgb(255, 255, 255, 0.7);
+      
+        position: relative;
+        top: -74.7ch;
+        left: 18px;
+    }
+
+
+
+
+   
+
+    .foto img {
+        width: 70px;
+        border-radius: 50px;
+        object-fit: cover;
+        position: relative;
+        top: -64ch;
+        left: 20px;
+    }
+
+    .nome {
+        position: relative;
+        top: -47ch;
+        left: 110px;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .subName {
+        position: relative;
+        top: -60.5ch;
+        left: 115px;
+        font-weight: 300;
+        font-size: 1.2rem;
+        color: gray;
+    }
+
+    .comentName {
+        position: relative;
+        top: -69ch;
+        left: 23px;
+        font-weight: 300;
+    }
+
+    .city {visibility: hidden;}
+
+    .followRs {
+        position: relative;
+        top: -73ch;
+        left: 21px;
+    }
+
+    .followRs a {
+        text-decoration: none;
+        color: rgb(102, 101, 101);
+    }
+
+    .img {
+        visibility: hidden;
+    }
+
+    .iconGitTop {
+        position: relative;
+        left: 10px;
+        top: 4px;
+        width: 30px;
+    }
+
+    .ContainerAll {
+        position: relative;
+        top: -500px;
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .cardMain {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .cardPin {
+        margin: 10px 0px 10px 0px;
+        width: 364px;
+        height: 82px;
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 7px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        
+  
+    }
+
+    .cardLink {
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
+        
+        
+    }
+
+    .cardLink:hover {
+        color: #2B6AD0;
+    }
+
+    .cardCont {
+        display: flex;
+        
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
+    .cardContRight {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nomeCard {
+        color: #2B6AD0;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .nomeCard:hover {
+        text-decoration: underline;
+    }
+
+    .typeL {
+        margin: 2px 0px 0px 3px;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+
+    .footerContent {
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 5px;
+        margin-top: 10px;
+        padding: 15px;
+        align-items: center;
+        justify-content: left;
+        display: flex;
+        overflow-x: scroll;
+        width: 364px;
+    }
+
+    .greenPixel {
+        height: 10px;
+        width: 10px;
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 2px;
+        background-color:rgb(231, 231, 231);
+        
+        
+    }
+
+    .headerFT {
+        display: flex;
+        margin: 2px 0px 2px 0px
+    }
+
+    .month {
+        margin:0px 40px 0px 7px;
+        font-size: 10px;
+    }
+
+    .navFT {
+        display: flex;
+    }
+
+    .navItem {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .navContent {
+        margin: 20px 5px 0px 0px;
+        font-size: 10px;
+    }
+
+    .linkFT {
+       
+        text-decoration: none;
+        color: rgb(69, 69, 253);
+        font-size: 11px;
+    }
+
+    .green {
+        background-color: rgb(106, 204, 106);
+        border:  1px solid rgb(106, 204, 106);
+    }
+
+    .greenMedium {
+        background-color: rgb(34, 185, 34);
+        border: 1px solid rgb(34, 185, 34);
+    }
+
+    .greenDark {
+        background-color: darkgreen;
+        border: 1px solid darkgreen;
+    }
+
+    .footerEnd {
+        margin-top: 25px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    fieldset {
+        border: 1px solid rgba(211, 211, 211);
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+        width: 700px;
+    }
+
+    legend {
+        margin-left: -22px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .iconFT {
+        margin-top: 10px;
+     
+    }
+
+    .iconFT::before {
+        display: block;
+        width: 2px;
+        height: 150px;
+        position: relative;
+        left: -13px;
+        content: "";
+        background-color:rgb(224, 224, 224);
+        
+    }
+
+   
+
+    .iconBox {
+        width: 30px;
+        height: 30px;
+        background-color:rgba(211, 211, 211);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -27px;
+        top: -125px;
+    }
+
+    .iconBoxTwo {
+        width: 30px;
+        height: 30px;
+        background-color:rgba(211, 211, 211);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -27px;
+        top: -90px;
+    }
+
+    .iconLink {
+        position: relative;
+        top: -180px;
+        left: 15px;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    .iconLinkTwo {
+        position: relative;
+        top: -133px;
+        left: 15px;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    .iconLink:hover {
+        color: rgb(81, 133, 245);
+    }
+
+    .iconLinkTwo:hover {
+        color: rgb(81, 133, 245);
+    }
+
+    .iconSelect {
+        margin:-2px 0px 0px 65px;
+    }
+
+    .iconSelectTwo {
+        margin: -2px 0px 0px 180px;
+        object-fit: cover;
+    }
+
+    .btnFooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -70px 0px 0px -21px;
+        width: 400px;
+        height: 40px;
+        background-color: rgb(255, 255, 255, 0.7);
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 5px;
+        color: rgb(50, 92, 182);
+        font-weight: 600;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .btnFooter:hover {
+        filter: brightness(95%);
+        transition: 0.25s;
+    }
+
+    .btnFooter:active {
+        position: relative;
+        top: 1px;
+    }
+
+    .footerFinaly {
+        margin: 30px 0px 0px -10px;
+        font-size: 12px;
+    }
+
+    .linkGit {
+        text-decoration: none;
+        color: rgb(83, 132, 223);
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin: -170px 0px 0px 5px;
+        width: 400px;
+        
+    }
+
+    .containerFooter {
+        margin: 40px 0px 40px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+
+    .alignFooter {
+        font-size: 14px;
+        margin: 0px 6px 0px 6px;
+    }
+
+    .alignFooter a {
+        text-decoration: none;
+        color: rgb(83, 132, 223);
+    }
+
+    .alignFooter a:hover {
+        text-decoration: underline;
+    }
+
+    .iconGitFooter {
+       visibility: hidden;
+    }
+
+    .cred {
+        font-size: 12px;
+        color: gray;
+    }
+
+    .hr {
+        width: 1225px;
+        margin-left: 0px;
+        border-top: 1px solid rgb(231, 231, 231);
+        border-bottom:none;
+        border-left: none;
+        border-right: none;
+    }
+
+   
+
+    
+
+   
+}

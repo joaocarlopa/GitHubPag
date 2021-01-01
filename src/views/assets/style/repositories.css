@@ -1,0 +1,212 @@
+@media (min-width: 766px) {
+    .repoAll {
+       width: 100%;
+    }
+
+    .repoBox {
+        border-bottom: 1px solid rgba(211, 211, 211);
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .inputRepo {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgba(211, 211, 211);
+        height: 50px;
+    }
+
+    .repoText {
+        width: 600px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid rgba(211, 211, 211);
+        text-indent: 2%;
+    }
+
+    .repoText:focus {
+        outline:none;
+        border: 1px solid rgb(83, 132, 223);
+        box-shadow: 0px 0px 0px 4px rgba(111, 159, 248, 0.5);
+    }
+
+    .typeRepo {
+        margin: 0px 10px 0px 15px;
+        width: 100px;
+        height: 35px;
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 5px;
+        background-color: rgba(248, 248, 248, 0.7);
+        cursor: pointer;
+    }
+
+    .languageRepo {
+        width: 150px;
+        height: 35px;
+        border: 1px solid rgba(211, 211, 211);
+        border-radius: 5px;
+        background-color: rgba(248, 248, 248, 0.7);
+        cursor: pointer;
+    }
+
+    .typeRepo:hover {
+        filter: brightness(95%);
+        transition: 0.25s;
+    }
+
+    .languageRepo:hover {
+        filter: brightness(95%);
+        transition: 0.25s;
+    }
+
+    .contentRepo {
+        display: flex;
+        margin: 20px 0px 20px 0px;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    .repoBox a {
+        text-decoration: none;
+        color: rgb(63, 118, 219);
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+
+    .repoBox a:hover {
+        text-decoration: underline;
+    }
+
+    .contentRepo a {
+        color: black;
+        font-weight: 300;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .contentRepo a:hover {
+        color: blue;
+        text-decoration: none;
+    }
+
+    .subTitleRepo {
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+
+    .txtRepo {
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 816px) {
+    .repoAll {
+        width: 100%;
+     }
+ 
+     .repoBox {
+         border-bottom: 1px solid rgba(211, 211, 211);
+         height: auto;
+         margin-top: 30px;
+         width: 400px;
+     }
+ 
+     .inputRepo {
+         display: flex;
+         flex-direction: column;
+         border-bottom: 1px solid rgba(211, 211, 211);
+         height: 100px;
+         width: 400px;
+     }
+
+     .repoInt {
+
+        margin: 10px 0px 0px -14px;
+        
+     }
+     
+
+     .repoText {
+         width: auto;
+         height: 30px;
+         border-radius: 5px;
+         border: 1px solid rgba(211, 211, 211);
+         text-indent: 2%;
+     }
+ 
+     .repoText:focus {
+         outline:none;
+         border: 1px solid rgb(83, 132, 223);
+         box-shadow: 0px 0px 0px 4px rgba(111, 159, 248, 0.5);
+     }
+ 
+     .typeRepo {
+         margin: 0px 10px 0px 15px;
+         width: 100px;
+         height: 35px;
+         border: 1px solid rgba(211, 211, 211);
+         border-radius: 5px;
+         background-color: rgba(248, 248, 248, 0.7);
+         cursor: pointer;
+     }
+ 
+     .languageRepo {
+         width: 150px;
+         height: 35px;
+         border: 1px solid rgba(211, 211, 211);
+         border-radius: 5px;
+         background-color: rgba(248, 248, 248, 0.7);
+         cursor: pointer;
+     }
+ 
+     .typeRepo:hover {
+         filter: brightness(95%);
+         transition: 0.25s;
+     }
+ 
+     .languageRepo:hover {
+         filter: brightness(95%);
+         transition: 0.25s;
+     }
+ 
+     .contentRepo {
+         display: flex;
+         margin: 20px 0px 20px 0px;
+         font-weight: 300;
+         font-size: 13px;
+     }
+ 
+     .repoBox a {
+         text-decoration: none;
+         color: rgb(63, 118, 219);
+         font-weight: 500;
+         font-size: 1.3rem;
+     }
+ 
+     .repoBox a:hover {
+         text-decoration: underline;
+     }
+ 
+     .contentRepo a {
+         color: black;
+         font-weight: 300;
+         font-size: 15px;
+         text-decoration: none;
+     }
+ 
+     .contentRepo a:hover {
+         color: blue;
+         text-decoration: none;
+     }
+ 
+     .subTitleRepo {
+         font-size: 13px;
+         font-weight: 300;
+         margin-top: 15px;
+     }
+ 
+     .txtRepo {
+         margin-top: 2px;
+     }
+}
