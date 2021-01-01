@@ -42,7 +42,7 @@
 
     .numRepo {
         padding: 5px;
-        margin: -2px 0px 0px 5px;
+        margin: 7px 10px 0px -27px;
         text-align: center;
         font-weight: 500;
         font-size: 12px;
@@ -202,9 +202,10 @@ label[for='check']{
 
     .numRepo {
         padding: 5px;
-        margin: -2px 0px 0px 5px;
+        margin: 18px 10px 0px -5px;
+        left: 80px;
         text-align: center;
-        font-weight: 500;
+        font-weight: 450;
         font-size: 12px;
         border-radius: 15px;
         border: 1px solid rgba(211, 211, 211, 0.466);
