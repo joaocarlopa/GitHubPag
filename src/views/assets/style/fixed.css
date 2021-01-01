@@ -334,7 +334,7 @@ label[for='check']{
 
     .btnFollow {
         height: 30px;
-        width: 300px;
+        width: 250px;
         font-weight: 600;
         border-radius: 5px;
         border: 1px solid rgba(211, 211, 211);
@@ -400,7 +400,7 @@ label[for='check']{
 
     .followRs {
         position: relative;
-        top: -74ch;
+        top: -85ch;
         left: 21px;
     }
 
