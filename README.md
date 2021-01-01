@@ -10,7 +10,6 @@
 
 ## Índice
 
-* [Devchallenge](#devchallenge) 
 * [Desafio](#desafio)
 * [Techs](#techs)
 * [Uso](#uso)
