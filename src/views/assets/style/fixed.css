@@ -153,7 +153,7 @@ label[for='check']{
     visibility: hidden;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     .followRs {
         position: relative;
         top: -85ch;
