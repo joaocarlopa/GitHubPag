@@ -153,14 +153,6 @@ label[for='check']{
     visibility: hidden;
 }
 
-@media (max-width: 700px) {
-    .followRs {
-        position: relative;
-        top: -85ch;
-        left: 21px;
-    }
-}
-
 
 
 @media (max-width: 816px) {
@@ -169,7 +161,7 @@ label[for='check']{
         visibility: visible;
         position: relative;
         top: -579px;
-        left: 355px;
+        left: 320px;
         font-size: 30px;
     }
 
@@ -279,7 +271,7 @@ label[for='check']{
     .signUp {
         position: relative;
         top: 10px;
-        left: 31ch;
+        left: 27ch;
         text-decoration: none;
         color: white;
         padding: 5px;
@@ -310,7 +302,7 @@ label[for='check']{
         color: black;
         z-index: 100;
         position: fixed;
-        top: 545px;
+        top: 555px;
         left: 200px;
     }
 
@@ -408,7 +400,7 @@ label[for='check']{
 
     .followRs {
         position: relative;
-        top: -73ch;
+        top: -74ch;
         left: 21px;
     }
 
