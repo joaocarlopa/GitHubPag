@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./git.gif" alt="Logo" width="350" height="250">
+    <img src="./git.gif" alt="Logo" width="1200">
   </a>
 
   <h3 align="center">Contador</h3>
