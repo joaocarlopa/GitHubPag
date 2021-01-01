@@ -235,7 +235,7 @@ label[for='check']{
         position: fixed;
         height: 900px;
         top: 0%;
-        left: 29%;
+        left: 14%;
         color: rgb(255, 255, 255);
     }
 
@@ -278,7 +278,7 @@ label[for='check']{
 
     .signUp {
         position: relative;
-        top: -26px;
+        top: 10px;
         left: 31ch;
         text-decoration: none;
         color: white;
@@ -318,11 +318,10 @@ label[for='check']{
         z-index: 100;
         border-top: 1px solid rgba(211, 211, 211, 0.466);
         position: fixed;
-        left: 30%;
-        top: 62%;
+        left: 14%;
+        top: 28%;
         margin: 10px 0px 0px 7px;
         visibility: hidden;
-
     }
 
     #inputSearch {
