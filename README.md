@@ -2,7 +2,7 @@
     <img src="./git.gif" alt="Logo" width="1200">
   </a>
 
-  <h3 align="center">Contador</h3>
+  <h3 align="center">CloneGit</h3>
 
   <p align="center">
     Recriando o github em ReactJS 
