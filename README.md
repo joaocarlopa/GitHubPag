@@ -5,7 +5,7 @@
   <h3 align="center">Contador</h3>
 
   <p align="center">
-    Aplicação para contar dias, horas, minutos e segundos
+    Recriando o github em ReactJS 
 </p>
 
 ## Índice
